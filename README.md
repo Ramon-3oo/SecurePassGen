@@ -23,9 +23,6 @@ Since this is a single HTML file, you can easily host it on:
 - Vercel
 - Any static file server
 
-## Example Screenshot 📸
-*(Add a screenshot of the website here)*
-
 ## Contributing 🤝
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
