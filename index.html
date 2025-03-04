@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body onload="UPDATE()">
+
+    <div id="passwordInput">
+        <input type="text" readonly id="passwordField">
+        <br>
+        <button onclick="generate()">Generate</button>
+
+        <div id="passwordsettings">
+            <p>Password length: </p>
+            <input type="number" id="slider" max="100" min="1" value ="12" name="range">
+            <br>
+            <p>Include: </p>
+            <label for="uppercase">Uppercase: </label>
+            <input type="checkbox" id="uppercase" checked name="uppercase"> <br>
+            <label for="symbol">Symbol: </label>
+            <input type="checkbox" id="symbol" checked name="symbol"> <br>
+            <label for="number">Numbers: </label>
+            <input type="checkbox" id="number" checked name="number"> <br>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    
+<div class="box">
+    <h2>Password Strength <span id="text">Check</span></h2>
+    <input type="password" id="passwordTester" placeholder="Enter your password"> 
+    <div class="paxssword-strength"></div> 
+    <div class="password-strength"></div> 
+    <div class="password-strength"></div>
+</div>
+<button onclick="ShowPassword()">👁️</button>
+    
+</body>
+</html>
