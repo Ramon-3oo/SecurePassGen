@@ -8,7 +8,7 @@ let generatedPassword;
 let charset = "abcdefghijklmnopqrstuvwxyz";
 let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let symbolCharset = "!@#$%^&*()_+-={}[]|:;<>,.?/";
-let numberCharset = "0123456789";
+let numberCharset = "01234567890123456789";
 
 
 function generate(){
